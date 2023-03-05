@@ -14,7 +14,9 @@
 
   
   
-  <a href="https://pilag6.github.io/youtube-Clone/"><strong>➥ Live Demo</strong></a>
+  <a href="https://pilag6.github.io/youtube-Clone/"><strong>➥ Live Demo GH-PAGES</strong></a>
+  
+  <a href="https://clone-1-youtube.netlify.app/"><strong>➥ Live Demo NETLIFY</strong></a>
 
 ![image](https://user-images.githubusercontent.com/79191808/222965790-f9d435be-7ab5-46e6-aa12-245950a3cf63.png)
 
