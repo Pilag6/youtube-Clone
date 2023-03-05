@@ -1,7 +1,3 @@
-# youtube-Clone
-React.JS | YouTube Clone by Pila Gonzalez
-
-
 <div align="center">
   
   ![GitHub repo size](https://img.shields.io/github/repo-size/Pilag6/youtube-Clone)
