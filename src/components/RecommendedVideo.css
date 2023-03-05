@@ -1,0 +1,120 @@
+.recommendedVideo {
+    flex: 1;
+    margin-left: 210px;
+}
+
+
+
+.recommendedVideo__carousel {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 50px;
+    z-index: 900;
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+.recommendedVideo__carousel p {
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #f2f2f2;
+    font-weight: 400;
+    padding: 6px 12px;
+    border-radius: 10px;
+    margin: 0 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.recommendedVideo__carousel p:first-child {
+    background-color: #000;
+    color: #fff;
+}
+
+.recommendedVideo__carousel p:hover {
+    background-color: #e6e6e6;
+}
+
+.recommendedVideo__carousel p:last-child:hover {
+    background-image: linear-gradient(45deg, #d4fff8, #ffdedd, #ffe6e6),
+        linear-gradient(45deg, #007a65, #7f0e7f, #ff8983);
+}
+
+/* RECOMMENDED VIDEOS */
+
+.recommendedVideo__videos {
+    padding: 10px 0px 10px 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* SHORTS */
+
+.recommendedVideo__shorts {
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.shorts__title {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 50px 15px;
+}
+
+.shorts__title img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.shorts__title h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.shortsVideos__Cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shortsCard__expand {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px 0;
+    color: #0f0f0f;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.shortsCard__expand:hover {
+    background-color: #e1e1e1;
+}
+
+.recommendedVideo .recommendedVideo__shorts > hr {
+    width: 97%;
+}
+
+hr {
+    border: 3px solid #e5e5e5;
+    width: 100%;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+
+/* MEDIAS QUERIES */
+
+@media only screen and (max-width: 1040px) {
+    .recommendedVideo__carousel {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1550px) {
+    .recommendedVideo__videos {
+        margin-left: 30px;
+    }
+}

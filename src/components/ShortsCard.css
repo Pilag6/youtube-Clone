@@ -1,0 +1,44 @@
+.shortsCard {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    margin: 0 2px 20px 8px;
+    cursor: pointer;
+}
+
+.shortsCard__img {
+    width: 190px;
+    height: 340px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.shortsCard__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shortsCard__title .shortsCard__title--dots {
+    display: none;
+    color: #030303;
+}
+
+.shortsCard__title:hover .shortsCard__title--dots {
+    display: inline;
+}
+.shortsCard__text {
+    margin-top: 10px;
+}
+.shortsCard__text .shortsCard__title > h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f0f0f;
+    max-width: 180px;
+}
+
+.shortsCard__text > p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+    margin-top: 10px;
+}

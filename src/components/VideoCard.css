@@ -1,0 +1,65 @@
+.videoCard {
+    width: 270px;
+    cursor: pointer;
+    margin: 0px 15px 30px 15px;
+}
+
+.videoCard__img {
+    height: 160px;
+    min-width: 270px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.videoCard__info {
+    display: flex;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.videoCard__avatar {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.videoCard__text {
+    margin-left: 10px;
+}
+
+.videoCard__text > h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.videoCard__text > p {
+    font-size: 12px;
+    color: #606060;
+    margin-bottom: 5px;
+}
+
+
+@media only screen and (min-width: 1550px) {
+    .videoCard {
+        width: 320px;
+        margin: 0px 28px 40px 28px;
+    }
+    
+    .videoCard__img {
+        height: 200px;
+        min-width: 320px;
+    }
+
+    .videoCard__text > h4 {
+        font-size: 16px;
+    }
+
+    .videoCard__text > p {
+        font-size: 14px;
+    }
+
+    .videoCard__avatar {
+        height: 35px !important;
+        width: 35px !important;
+    }
+
+}

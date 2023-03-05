@@ -1,0 +1,19 @@
+.sidebar {
+    width: 260px;
+    position: fixed;
+    z-index: 950;
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: #f2f2f2;
+    width: 90%;
+    margin: 10px auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .sidebar {
+        flex: 0.1;
+    }
+}
