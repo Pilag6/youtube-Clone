@@ -1,8 +1,5 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/Pilag6/youtube-Clone)
-  ![GitHub stars](https://img.shields.io/github/stars/Pilag6/youtube-Clone?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/Pilag6/youtube-Clone?style=social)
   [![Twitter Follow](https://img.shields.io/twitter/follow/PilaGonzalezOk?style=social)](https://twitter.com/intent/follow?screen_name=PilaGonzalezOk)
 
   <br />
