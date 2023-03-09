@@ -4,8 +4,8 @@
 
   <br />
   <br />
-
-  <h2 align="center">YOUTUBE CLONE</h2>
+  
+  <img src="https://user-images.githubusercontent.com/79191808/224155818-78abf7d6-97c3-404f-adea-4cd3d6cf475c.png" width="278">
 
   # React.JS | YouTube Clone by Pila Gonzalez
   
